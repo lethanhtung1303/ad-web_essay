@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat Real Time</title>
+        <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="home-header row">
+                <div class="col">
+                    <h1>
+                        <i class="far fa-comment-dots"></i> Chat with friends
+                    </h1>
+                </div>
+            </header>
+
+            <div class="home-main row">
+                <div class="col">
+                    <form action="room">
+                        <div class="form-group">
+                            <label for="inputUserName"
+                                ><i class="far fa-user"></i> User Name</label
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="inputUserName"
+                                name="inputUserName"
+                                placeholder="Enter User Name"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="choseRoom"
+                                ><i class="fas fa-house-user"></i> Chose
+                                Room</label
+                            >
+                            <select
+                                id="choseRoom"
+                                name="choseRoom"
+                                class="custom-select"
+                            >
+                                <option
+                                    value="Requirements Analysis and Design"
+                                >
+                                    Requirements Analysis and Design
+                                </option>
+                                <option value="Advanced Web Programming">
+                                    Advanced Web Programming
+                                </option>
+                                <option value="Advanced Software Engineering">
+                                    Advanced Software Engineering
+                                </option>
+                                <option value="Design Pattern">
+                                    Design Pattern
+                                </option>
+                                <option
+                                    value="Introduction to Digital Image Processing"
+                                >
+                                    Introduction to Digital Image Processing
+                                </option>
+                            </select>
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="btn btn-custom form-control"
+                        >
+                            Enter Room
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Script bootstrap -->
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
