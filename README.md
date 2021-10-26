@@ -29,3 +29,4 @@
 -   git clone https://github.com/lethanhtung1303/ChatRealTime.git
 -   npm install
 -   npm run start
+-   Link Deploy: https://vnedutdtumychat.herokuapp.com/
