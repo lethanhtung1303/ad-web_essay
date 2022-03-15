@@ -15,18 +15,16 @@
 -   Ho&Ten: Le Thanh Tung
 -   MSSV: 51800830
 
--   Ho&Ten: Hoàng Thị Thùy Trang
--   MSSV: 51900249
-
--   Ho&Ten: Võ Minh Thuận
--   MSSV: 51900838
-
--   Ho&Ten: Trần Bình Trọng
--   MSSV: 51800253
-
 ## How to configure & run
 
--   git clone https://github.com/lethanhtung1303/ChatRealTime.git
--   npm install
--   npm run start
--   Link Deploy: https://vnedutdtumychat.herokuapp.com/
+###	Cách 1:
+
+- npm install
+- npm run start
+- Truy cập: http://localhost:3000
+- Nhập tên và chọn phòng vào chat
+
+###	Cách 2
+
+- Truy cập Link Deploy: https://vnedutdtumychat.herokuapp.com/
+- Nhập tên và chọn phòng vào chat
